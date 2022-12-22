@@ -1,0 +1,157 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    min-height: 8vh;
+    padding-left: 15px;
+    gap: 35px;
+}
+
+.alert-profile {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.alert-profile img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    align-self: flex-end;
+    margin-right: 20px;
+}
+
+.style-icon {
+    display: flex;
+    background-color: rgb(245 244 249);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero {
+    display: flex;
+    min-height: 20vh;
+    background-color: rgb(116 81 254);
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 22%;
+    height: 25vh;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.hero-text>span {
+    font-weight: 100;
+    font-size: large;
+}
+
+h1 {
+    font-size: 33px;
+}
+
+.hero-btn {
+    display: flex;
+    gap: 3px;
+}
+
+
+.btn-style {
+    background-color: rgb(26 203 153);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-style:nth-child(2) {
+    color: black;
+    background-color: white;
+}
+
+
+.hero-img {
+    display: flex;
+    align-self: flex-end;
+}
+
+.bottom-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    gap: 20%;
+}
+
+.main {
+    display: flex;
+    background-color: rgb(245 244 248);
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.inner-main {
+
+    margin-top: 100px;
+    width: 75%;
+}
+
+.item-row {
+    display: flex;
+    gap: 25px;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 60vh;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.item-img {
+    height: 40%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.item-text {
+    width: 100%;
+    margin-block: 20px;
+    background-color: azure;
+    height: 10vh;
+}
+
+.item-img img {
+    width: 350px;
+    height: 233px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
