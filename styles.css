@@ -21,6 +21,10 @@ body {
     justify-content: flex-end;
 }
 
+.alert-profile span:nth-of-type(2) {
+    position: relative;
+}
+
 .alert-profile img {
     width: 50px;
     height: auto;
@@ -37,6 +41,37 @@ body {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.bi-bell>span {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(116 81 254);
+    color: rgb(116 81 254);
+    border-radius: 50%;
+    top: -5%;
+    right: 15%;
+    margin-top: 5px;
+    -webkit-box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 1);
+}
+
+.profil-news {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(26 203 152);
+    color: rgb(26 203 152);
+    border-radius: 50%;
+    right: 35%;
+    bottom: 15%;
+    margin-top: 5px;
+    -webkit-box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 1);
 }
 
 .icon-text {
@@ -52,6 +87,13 @@ body {
     justify-content: space-around;
     gap: 20px;
 }
+
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 
 
